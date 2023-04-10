@@ -14,10 +14,7 @@ bool checker(string w)
 		else if (w[i] == 'l' && e)l1 = 1;
 		else if (w[i] == 'o' && l2)o = 1;
 	}
-	if (o)
-		return true;
-	else
-		return false;
+	return o;
 }
 
 
